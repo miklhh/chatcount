@@ -13,3 +13,4 @@ Start of by producing a Facebook compilation JSON file from Facebook. While sign
 3. Make sure that *Messages* are selected in the list *Your information*.
 ![Step3](resources/3.png)
 
+4. Click __Create file__ and wait for Facebook to create the compilation file. Once the file is completed you will get a notification throught Facebook. Download the file and place it in the repository root directory.
