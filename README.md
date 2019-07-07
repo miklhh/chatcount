@@ -5,13 +5,13 @@ Count messages and characters sent between you and your friends through Facebook
 Start of by producing a Facebook compilation JSON file from Facebook. While signed in to your Facebook account, do the following:
 
 1. Go to `Settings -> Your Facebook information -> Download your information`.
-![Step1](resourses/1.png)
+![Step1](resources/1.png)
 2. Select settings:
 
   * Data range: *All of my data*
   * Format: *JSON*
   * Media quiality: *Medium*
-![Step2](resourses/2.png)
+![Step2](resources/2.png)
   
 3. Make sure that *Messages* are selected in the list *Your information*.
 
