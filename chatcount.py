@@ -10,6 +10,8 @@ TMP_DIR = '__tmp_chatcount__'
 MESSAGE_DIR = TMP_DIR + '/messages/inbox'
 MESSAGE_JSON_NAME = 'message_1.json'
 
+def iso8859_to_utf8(string):
+    return str(string.encode('iso-8859-1').decode('utf-8'))
 
 def usage():
     ''' Prints program usage. '''
@@ -79,11 +81,13 @@ def main():
     result.sort(key=lambda x: x[1])
 
     # Print the result.
+    print('Result:')
     rank = 1
     for (chat_title, message_count, character_count) in reversed(result):
-        print('(' + str(rank) + ')', end=" ")
-        print(chat_title + " - Messages: " + str(message_count), end=", ")
-        print("Characters: " + str(character_count))
+        print('  (' + str(rank) + ')', end=" ")             # Rank
+        print(iso8859_to_utf8(chat_title) + " -", end=" ")  # Chat title
+        print("Messages: " + str(message_count), end=", ")  # Message count
+        print("Characters: " + str(character_count))        # Character count
         rank += 1
 
     # Remove tmp directory.
