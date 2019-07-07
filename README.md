@@ -10,6 +10,7 @@ Start of by producing a Facebook compilation JSON file from Facebook. While sign
     * Data range: *All of my data*
     * Format: *JSON*
     * Media quiality: *Medium*
+
 ![Step2](resources/2.png)
   
 3. Make sure that *Messages* are selected in the list *Your information*.
