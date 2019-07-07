@@ -18,4 +18,4 @@ Start of by producing a Facebook compilation JSON file from Facebook. While sign
 
 4. Click __Create file__ and wait for Facebook to create the compilation file. Once the file is completed you will get a notification through Facebook. Download the generated zipfile and place it in the repository root directory.
 
-5. Invoke the python-script *chatcount.py* with the generated zipfile as commandline argument, example: `./chatcount.py examplename123.zip`. If you are unable to run the script you might have to mark it as executable by invoking `chmox +x chatcount.py`. The result is printed throught standard out.
+5. Invoke the python-script *chatcount.py* with the generated zipfile as commandline argument, example: `./chatcount.py examplename123.zip`. If you are unable to run the script you might have to mark it as executable by invoking `chmox +x chatcount.py`. The result is printed through standard out.
