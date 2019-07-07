@@ -1,6 +1,9 @@
 # chatcount
 Count messages and characters sent between you and your friends through Facebook Messenger. This tool analysises a facebook JSON data collection file and shows a summary of all messages sent and recieved.
 
+## Example output.
+![Example](resources/4.png)
+
 ## Usage
 Start of by producing a Facebook compilation JSON file from Facebook. While signed in to your Facebook account, do the following:
 
