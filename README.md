@@ -18,4 +18,8 @@ Start of by producing a Facebook compilation JSON file from Facebook. While sign
 
 4. Click __Create file__ and wait for Facebook to create the compilation file. Once the file is completed you will get a notification through Facebook. Download the generated zipfile and place it in the repository root directory.
 
-__For UNIX-based/Linux systems__ Invoke the python-script *chatcount.py* with the generated zipfile as commandline argument, example: `./chatcount.py facebook-examplename123.zip`. If you are unable to run the script you might have to mark it as executable by invoking `chmod +x chatcount.py`. The result is printed through standard out.
+__For UNIX-based/Linux systems:__ Invoke the python-script *chatcount.py* with the generated zipfile as commandline argument, example: `./chatcount.py facebook-examplename123.zip`. If you are unable to run the script you might have to mark it as executable by invoking `chmod +x chatcount.py`. The result is printed through standard out.
+
+__For Windows-based systems:__ Start of by making sure that you have a copy of [Python 3](https://www.python.org/downloads/release) installed __and__ make sure that Python is added to your PATH ([see this guide](https://geek-university.com/python/add-python-to-the-windows-path/) on how to add Python to your PATH). With python installed, add the Facebook compilation file to the script directory and run *windows-run.bat*.
+
+![Windows](resources/5.png)
